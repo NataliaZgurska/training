@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    
+    
+    <script type="module" crossorigin src="/training/commonHelpers4.js"></script>
+    <link rel="modulepreload" crossorigin href="/training/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="stylesheet" href="/training/assets/task-3-00c9c65a.css">
+    <link rel="stylesheet" href="/training/assets/styles-c659e099.css">
+  </head>
+  <body>
+    <p class="back-wrap"><a class="back-link" href="/index.html">Go back</a></p>
+    <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+    <input
+      type="text"
+      id="name-input"
+      placeholder="Please enter your name"
+      class="form-input"
+    />
+
+    <p>------------------------------------------------------</p>
+
+    <!-- Обробка форми -->
+    <form class="form-login">
+      <label class="form-label">
+        Email
+        <input type="email" name="email" class="form-input" />
+      </label>
+      <label class="form-label">
+        Password
+        <input type="password" name="password" class="form-input" />
+      </label>
+      <button type="submit" class="form-btn">Login</button>
+    </form>
+
+    <!-- Зміна кольору фона -->
+    <div class="widget">
+      <p class="text">Background color: <span class="color">-</span></p>
+      <button type="button" class="change-color">Change color</button>
+    </div>
+
+    
+  </body>
+</html>
