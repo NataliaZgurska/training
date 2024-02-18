@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */const o=document.querySelector(".outerCircle");o.addEventListener("click",s);function s(t){const e=t.currentTarget;if(e.style.position==="absolute"){e.style.position="static",window.removeEventListener("mousemove",i);return}e.style.position="absolute",window.addEventListener("mousemove",i)}function i(t){let e=t.pageY,n=t.pageX;o.style.top=`${e-15}px`,o.style.left=`${n-15}px`}
+//# sourceMappingURL=commonHelpers8.js.map
