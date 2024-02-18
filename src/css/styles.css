@@ -48,6 +48,10 @@ body {
   color: rgb(56, 27, 170);
 }
 
+.back-wrap{
+  margin-bottom: 20px;
+}
+
 .back-link {
   font-size: 20px;
   font-weight: 500;
